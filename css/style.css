@@ -62,8 +62,26 @@ body {
   font-size: 16px; }
 
 .hi {
-  background: aquamarine; }
+   background: #445162;
+   padding: 50px 0; 
+}
 
 .conteiner {
-  max-width: 1180px;
-  display: flex; }
+  display: flex;
+    justify-content: space-between;
+    max-width: 1180px;
+    margin: 0 auto;
+  }
+  .hi_row{
+    color: #ffffff;
+  }
+  .hi_title {
+    font-size: 60px;
+    margin: 0 0 38px 0;  
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+  }
+  .hi_list li{
+    background: url('/img/icons/checkicon.png')left no-repeat;
+  }
+
+  
